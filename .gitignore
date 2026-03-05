@@ -1,0 +1,8 @@
+# Base de datos generada (se crea con create_db_ventas.py)
+data/*.db
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
