@@ -1,0 +1,26 @@
+{
+  "csv": {
+    "dataset_dir": "dataset",
+    "products": "products.csv",
+    "customers": "customers.csv",
+    "orders": "orders.csv",
+    "order_details": "order_details.csv"
+  },
+  "databases": {
+    "staging": "data/staging.db",
+    "fuente_ventas": "data/fuente_ventas.db",
+    "analitica": "data/ventas_analitica.db"
+  },
+  "api": {
+    "base_url": "http://127.0.0.1:8000",
+    "endpoints": {
+      "productos": "/productos",
+      "clientes": "/clientes"
+    },
+    "timeout_seconds": 30
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/etl.log"
+  }
+}

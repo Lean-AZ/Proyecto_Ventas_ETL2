@@ -1,5 +1,10 @@
-# Base de datos generada (se crea con create_db_ventas.py)
+# Base de datos generada (se crea con create_db_ventas.py o ETL)
 data/*.db
+# Config con datos sensibles (usar config.json.example como plantilla)
+config/config.json
+# Logs del ETL
+logs/
+*.log
 # Python
 __pycache__/
 *.py[cod]
